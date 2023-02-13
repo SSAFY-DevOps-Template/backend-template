@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: deploytestback
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    username: root
+    password: 0000
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/coach_db?serverTimezone=Asia/Seoul
+
