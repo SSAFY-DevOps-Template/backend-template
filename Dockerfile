@@ -2,7 +2,7 @@
 FROM adoptopenjdk/openjdk11 AS build
 WORKDIR /builder
 COPY . .
-RUN gradlew build
+RUN ./gradlew build
 
 # RUN STAGE
 FROM adoptopenjdk/openjdk11
