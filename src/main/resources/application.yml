@@ -17,5 +17,5 @@ spring:
     username: root
     password: 0000
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/coach_db?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://mysql:3306/coach_db?serverTimezone=Asia/Seoul
 
